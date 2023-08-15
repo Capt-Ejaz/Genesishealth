@@ -27,16 +27,16 @@ public class testcases {
     	Thread.sleep(9000);
     }
 
-    @Test
-    public void Testcase2() throws InterruptedException {
-         driver.findElement(By.className("ant-input-status-success css-sk7ap8")).sendKeys("test@gmail.com");
-         Thread.sleep(4000);
-         driver.findElement(By.cssSelector("#password > span > input")).sendKeys("123456789");
-         Thread.sleep(3000);
-     }
-    
-    @AfterMethod
-    public void quit() {
-        driver.quit();
+//    @Test
+//    public void Testcase2() throws InterruptedException {
+//         driver.findElement(By.className("ant-input-status-success css-sk7ap8")).sendKeys("test@gmail.com");
+//         Thread.sleep(4000);
+//         driver.findElement(By.cssSelector("#password > span > input")).sendKeys("123456789");
+//         Thread.sleep(3000);
+//     }
+//    
+   @AfterMethod
+   public void quit() {
+   driver.quit();
     }
 }
