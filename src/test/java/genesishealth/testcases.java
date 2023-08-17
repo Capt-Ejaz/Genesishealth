@@ -15,7 +15,8 @@ public class testcases {
     
     @BeforeMethod
     public void launchDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\LAPTOP WORLD\\Downloads\\New folder\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Genesis health/chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\LAPTOP WORLD\\Downloads\\New folder\\chromedriver.exe");
         driver = new ChromeDriver(); // Initialize the driver here
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().fullscreen();
