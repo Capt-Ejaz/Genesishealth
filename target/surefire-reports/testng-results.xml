@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-15T15:58:56 PKT" name="Suite" finished-at="2023-08-15T15:59:11 PKT" duration-ms="14583">
+  <suite started-at="2023-08-17T12:03:30 PKT" name="Suite" finished-at="2023-08-17T12:03:53 PKT" duration-ms="23435">
     <groups>
     </groups>
-    <test started-at="2023-08-15T15:58:56 PKT" name="Test" finished-at="2023-08-15T15:59:11 PKT" duration-ms="14583">
+    <test started-at="2023-08-17T12:03:30 PKT" name="Test" finished-at="2023-08-17T12:03:53 PKT" duration-ms="23435">
       <class name="genesishealth.testcases">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:genesishealth.testcases@1d548a08]" started-at="2023-08-15T15:58:56 PKT" name="launchDriver" finished-at="2023-08-15T15:58:58 PKT" duration-ms="1686" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:genesishealth.testcases@623a8092]" started-at="2023-08-17T12:03:30 PKT" name="launchDriver" finished-at="2023-08-17T12:03:32 PKT" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Testcase1()[pri:0, instance:genesishealth.testcases@1d548a08]" started-at="2023-08-15T15:58:58 PKT" name="Testcase1" finished-at="2023-08-15T15:59:11 PKT" duration-ms="12522" status="PASS">
+        <test-method signature="Testcase1()[pri:0, instance:genesishealth.testcases@623a8092]" started-at="2023-08-17T12:03:32 PKT" name="Testcase1" finished-at="2023-08-17T12:03:53 PKT" duration-ms="20939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:genesishealth.testcases@1d548a08]" started-at="2023-08-15T15:59:11 PKT" name="quit" finished-at="2023-08-15T15:59:11 PKT" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:genesishealth.testcases@623a8092]" started-at="2023-08-17T12:03:53 PKT" name="quit" finished-at="2023-08-17T12:03:53 PKT" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
