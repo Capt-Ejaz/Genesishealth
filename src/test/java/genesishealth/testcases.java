@@ -2,12 +2,13 @@ package genesishealth;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager; // Import WebDriverManager
 
 public class testcases {
     	
@@ -15,8 +16,9 @@ public class testcases {
     
     @BeforeMethod
     public void launchDriver() {
-    	System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Genesis health/chromedriver.exe");
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\LAPTOP WORLD\\Downloads\\New folder\\chromedriver.exe");
+        // Set up ChromeDriver using WebDriver Manager
+        WebDriverManager.chromedriver().setup();
+        
         driver = new ChromeDriver(); // Initialize the driver here
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().fullscreen();
@@ -28,16 +30,10 @@ public class testcases {
     	Thread.sleep(9000);
     }
 
-//    @Test
-//    public void Testcase2() throws InterruptedException {
-//         driver.findElement(By.className("ant-input-status-success css-sk7ap8")).sendKeys("test@gmail.com");
-//         Thread.sleep(4000);
-//         driver.findElement(By.cssSelector("#password > span > input")).sendKeys("123456789");
-//         Thread.sleep(3000);
-//     }
-//    
-   @AfterMethod
-   public void quit() {
-   driver.quit();
+    // Add your other test methods here
+    
+    @AfterMethod
+    public void quit() {
+        driver.quit();
     }
 }

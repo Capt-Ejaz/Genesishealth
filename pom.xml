@@ -16,11 +16,12 @@
     
     <dependencies>
         <!-- Selenium WebDriver -->
-        <dependency>
+        <!-- Remove the old Selenium dependency -->
+        <!--<dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
-        </dependency>
+        </dependency>-->
         
         <!-- TestNG -->
         <dependency>
@@ -28,6 +29,13 @@
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
             <scope>test</scope>
+        </dependency>
+        
+        <!-- WebDriver Manager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.1.1</version>
         </dependency>
     </dependencies>
     

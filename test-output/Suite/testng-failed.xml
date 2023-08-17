@@ -5,7 +5,7 @@
     <classes>
       <class name="genesishealth.testcases">
         <methods>
-          <include name="Testcase2"/>
+          <include name="Testcase1"/>
           <include name="launchDriver"/>
           <include name="quit"/>
         </methods>
