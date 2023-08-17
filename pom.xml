@@ -15,14 +15,6 @@
     </properties>
     
     <dependencies>
-        <!-- Selenium WebDriver -->
-        <!-- Remove the old Selenium dependency -->
-        <!--<dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-        </dependency>-->
-        
         <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
